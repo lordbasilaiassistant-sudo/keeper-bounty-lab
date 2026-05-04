@@ -51,6 +51,34 @@ Companion deployments:
 
 Project home: https://thryx.fun
 
+## Use these contracts
+
+Each address above is clickable straight into Basescan. To call them from your own code:
+
+```solidity
+// example: register a vesting auto-claim job
+IVestingAutoClaim(0x07EC89a177c7bcBB5205A8fF274f751f1C37fe4E).register{value: bounty}(...);
+```
+
+ABIs ship in `out/<Contract>.sol/<Contract>.json` after `forge build`. Treasury sink: `0x7a3E312Ec6e20a9F62fE2405938EB9060312E334`. Project home with the full inventory: https://thryx.fun
+
+## Built on
+
+- [**Base**](https://base.org) — the Ethereum L2 this is deployed on (incubated by [Coinbase](https://www.coinbase.com)).
+- [**Foundry**](https://getfoundry.sh) — Solidity toolchain for build, test, and deploy.
+- [**Basescan**](https://basescan.org) — block explorer used for verification.
+- [**Claude Code**](https://claude.com/claude-code) by Anthropic — primary engineering assistant for the THRYX surface.
+
+## Support this work
+
+If any of these patterns saved you a deployment, the easiest way to fund continued maintenance is direct on-chain:
+
+- **Treasury address (Base / Ethereum / any EVM):** `0x7a3E312Ec6e20a9F62fE2405938EB9060312E334`
+- **Etherscan:** https://etherscan.io/address/0x7a3E312Ec6e20a9F62fE2405938EB9060312E334
+- **Basescan:** https://basescan.org/address/0x7a3E312Ec6e20a9F62fE2405938EB9060312E334
+
+The repo's `Sponsor` button (top of page) wires to the same address via `.github/FUNDING.yml`.
+
 ## License
 
 MIT.
