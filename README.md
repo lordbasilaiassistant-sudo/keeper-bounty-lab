@@ -64,7 +64,7 @@ ABIs ship in `out/<Contract>.sol/<Contract>.json` after `forge build`. Treasury 
 
 ## Built on
 
-- [**Base**](https://base.org) — the Ethereum L2 this is deployed on (incubated by [Coinbase](https://www.coinbase.com)).
+- [**Base**](https://base.org) — the Ethereum L2 this is deployed on (open-source, OP Stack).
 - [**Foundry**](https://getfoundry.sh) — Solidity toolchain for build, test, and deploy.
 - [**Basescan**](https://basescan.org) — block explorer used for verification.
 - [**Claude Code**](https://claude.com/claude-code) by Anthropic — primary engineering assistant for the THRYX surface.
